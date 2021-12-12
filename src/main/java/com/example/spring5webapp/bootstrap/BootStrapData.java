@@ -34,8 +34,8 @@ public class BootStrapData implements CommandLineRunner {
 
         Publisher mgh = new Publisher();
         mgh.setName("McGraw Hill");
-        sfg.setCity("New York");
-        sfg.setState("NY");
+        mgh.setCity("New York");
+        mgh.setState("NY");
 
         publisherRepository.save(sfg);
         publisherRepository.save(mgh);
